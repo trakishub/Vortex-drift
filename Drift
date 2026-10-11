@@ -10,7 +10,7 @@ local UserInputService = game:GetService("UserInputService")
 local LocalPlayer = Players.LocalPlayer
 local CurrentCamera = Workspace.CurrentCamera
 local ScreenGui = Instance.new("ScreenGui", LocalPlayer.PlayerGui)
-ScreenGui.Name = "DrifterZ_V24_Full"
+ScreenGui.Name = "vortex drift"
 ScreenGui.ResetOnSpawn = false
 local u11 = false
 local u12 = false
@@ -103,7 +103,7 @@ Instance.new("UICorner", Frame2)
 local TextLabel2 = Instance.new("TextLabel", Frame2)
 TextLabel2.Size = UDim2.new(1, -80, 1, 0)
 TextLabel2.Position = UDim2.new(0, 12, 0, 0)
-TextLabel2.Text = "DRIFTERZ HUB V24"
+TextLabel2.Text = "VÓRTEX DRIFT HUB"
 TextLabel2.Font = Enum.Font.GothamBold
 TextLabel2.TextSize = 14
 TextLabel2.BackgroundTransparency = 1
